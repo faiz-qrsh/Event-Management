@@ -1,0 +1,69 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ValidateAd</servlet-name>
+        <servlet-class>com.ems.ValidateAd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValidateAd</servlet-name>
+        <url-pattern>/ValidateAd</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StoreP</servlet-name>
+        <servlet-class>com.ems.StoreP</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StoreP</servlet-name>
+        <url-pattern>/StoreP</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>VaPa</servlet-name>
+        <servlet-class>com.ems.VaPa</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VaPa</servlet-name>
+        <url-pattern>/VaPa</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddEvent</servlet-name>
+        <servlet-class>com.ems.AddEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEvent</servlet-name>
+        <url-pattern>/AddEvent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewEvent</servlet-name>
+        <servlet-class>com.ems.ViewEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewEvent</servlet-name>
+        <url-pattern>/ViewEvent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.ems.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TraH</servlet-name>
+        <servlet-class>com.ems.TraH</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TraH</servlet-name>
+        <url-pattern>/TraH</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
